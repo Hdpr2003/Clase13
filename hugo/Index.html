@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="loggin">
+        <form action="" id="formulario" class="mostrar">
+            <h3>Bienvenid@ registrese para mas informacion</h3>
+            <input type="email" placeholder="Ingrese su email" id="Registrar">
+            <br><br>
+            <input type="password" placeholder="Ingrese su contraseña" id="Password">
+            <br><br>
+            <input type="button" value="Registrar" id="btnRegistrar">
+            <input type="button" value="Iniciar Sesion" id="btnIniciar">
+            <br><br>
+            <img src="img/facebook.png" alt="boton google" height="30px" id="btnFacebook">
+            <img src="img/googlee.png" alt="boton google" height="30px" id="btnGoogle">
+        </form>
+    </div>
+    <div id="contenidoWeb">
+    <div id="contendidoweb" class="ocultar">
+        <input type="button" value="Cerrar Sesion" id="btnCerrar">
+        <h2>Bienevenido al contenido web</h2>
+        <div class="resultado" id="resultado"> </div>
+        <h3>Contenido.....</h3>
+        <div class="resultado" id="resultado"></div>
+
+    </div>
+            <!-- Insertar el link de Firebase -->
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+ 
+        <script src="app.js"></script>
+</body>
+</html>
